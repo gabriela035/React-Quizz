@@ -1,9 +1,13 @@
 import React from "react";
 import QuizStart from "./QuizStart";
+import ProgressionBar from "./ProgressionBar";
+import Timer from "./Timer";
+import TestingQuestions from "./questions/TestingQuestions";
+import Results from "./Results";
 
 function Quiz() {
   return (
-    <QuizStart />
+    <Results />
     // <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50 py-8 px-4">
     //   <div className="max-w-4xl mx-auto mb-8">
     //     <div className="bg-white rounded-xl shadow-lg p-6">
