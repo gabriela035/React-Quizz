@@ -2,7 +2,7 @@ import React from "react";
 import QuizStart from "./QuizStart";
 import ProgressionBar from "./ProgressionBar";
 import Timer from "./Timer";
-import TestingQuestions from "./questions/TestingQuestions";
+import TestingQuestions from "./Question";
 import Results from "./Results";
 
 function Quiz() {
